@@ -1,3 +1,69 @@
+body {
+	margin:0px auto;
+	padding:0;
+	font-family:Verdana, Geneva, sans-serif;
+	font-size:14px;
+	color:#333;
+	background:#fff url('images/body-bg.jpg') repeat-x;
+}
+p {
+	line-height:1.9em;
+	margin-bottom:20px;
+}
+a {
+	color:#0D3C84;
+}
+
+/* primeiro exemplo CSS */
+img {
+    border: 2px solid rgb(233 171 88);
+    border-radius: 5px;
+    width: 50px;
+    height: auto;
+}
+
+
+.user-photo {
+    margin: 10px;
+    display: block;
+    position: relative;
+    transition-property: font-size;
+    transition-duration: 4s;
+    transition-delay: 2s;
+}
+
+
+
+/* exemplo avançado CSS */
+a:hover {
+	color:#0C3A85;
+}
+a:focus {
+	outline:none;
+}
+.user-photo:hover {
+    transform: scale(1.25);
+    rotate: 360deg;
+}
+
+/* mais formatação */
+
+header{
+    top: 0;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    overflow: hidden;
+    background-color: rgba(255,255,255, 0.9);
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    height: 8%;
+    margin-bottom: 0px;
+    z-index: 1;
+}
+
+
+/* segundo exemplo CSS */
 .box-flex {
 display: flex;
 justify-content: space-between;
@@ -46,7 +112,30 @@ grid-row: 4;
     color: #d9480f;
 }
 
-footer {
-    margin: 300px 20px 10px 0  ;
 
+/* Terceiro exemplo de JS */
+
+footer {
+    margin: 300px 20px 0px 20px  ;
+    bottom: 0;    
+    right: 0;
+}
+
+
+input.back-to-top {
+    background: none;
+    margin: 25px;
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    z-index: 100;
+    display: none;
+    text-decoration: none;
+    border-radius:15px;   
+    border-color: #ff9000;
+}	
+ .back-to-top i {
+ 
+    font-size: 60px;
+     
 }
